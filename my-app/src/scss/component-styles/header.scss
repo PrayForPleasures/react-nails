@@ -1,0 +1,53 @@
+.header{
+    color: $color-white;
+    background-color: $color-dark;
+    
+    &__flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 5em;
+    }
+
+    &__logo{
+        width: 10%;
+        height: 5em;
+        display: flex;
+        align-items: center;
+        position: relative;
+        transition: 0.3s linear;
+    }
+
+    &__logo:hover{
+        opacity: 0.75;
+    }
+
+    &__logo-img{
+        height: 100%;
+        transform: rotate(90deg);
+    }
+
+    &__logo-text{
+        position: absolute;
+        font-weight: normal;
+        font-family: $second-font;
+        left: -12px;
+    }
+
+    &__all-nav-links{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__nav-link{
+        font-family: $second-font;
+        transition: 0.3s linear;
+    }
+
+    &__nav-link:hover{
+        opacity: 0.75;
+    }
+}
+

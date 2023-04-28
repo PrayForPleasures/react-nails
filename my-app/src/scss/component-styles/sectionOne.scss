@@ -1,0 +1,36 @@
+.section-one{
+    color: $color-white;
+    background-color: $color-dark;
+    position: relative;
+
+    &__flex-box{
+        padding: 40px 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__left-box{
+        width: 30%;
+    }
+
+    &__right-box{
+        width: 70%;
+    }
+
+    &__back-image_left{
+        width: 20%;
+        position: absolute;
+        left: 0;
+        top:40px;
+        opacity: 70%;
+    }
+
+    &__back-image_right{
+        width: 20%;
+        position: absolute;
+        right: 0;
+        top: 470px;
+        opacity: 70%;
+    }
+
+}

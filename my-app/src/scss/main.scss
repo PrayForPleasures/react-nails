@@ -1,0 +1,17 @@
+// global styles
+
+@import '../scss/global-styles/variables.scss';
+@import '../scss/global-styles/normalize.scss';
+@import '../scss/global-styles/global.scss';
+
+// ui's
+
+@import '../scss/global-styles/uis.scss';
+
+// components styles
+
+@import '../scss/component-styles/header.scss';
+@import '../scss/component-styles/sectionOne.scss';
+@import '../scss/component-styles/sectionTwo.scss';
+@import '../scss/component-styles/sectionThree.scss';
+@import '../scss/component-styles/footer.scss';
