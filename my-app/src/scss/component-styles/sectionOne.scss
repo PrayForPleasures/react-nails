@@ -10,11 +10,11 @@
     }
 
     &__left-box{
-        width: 20%;
+        width: 80%;
     }
 
     &__right-box{
-        width: 80%;
+        width: 20%;
         display: flex;
         flex-direction: column;
     }
@@ -44,6 +44,12 @@
         font-family: $second-font;
         font-weight: normal;
         font-size: 64px;
+        margin-bottom: 32px;
+    }
+
+    &__description{
+        z-index: 4;
+        text-indent: 20px;
     }
 
     &__main-image{
@@ -63,6 +69,11 @@
         z-index: 4;
         outline: 1px solid transparent;
         padding: 5px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     &__soc-link:hover{
@@ -74,6 +85,7 @@
 
     &__soc-link-image{
         width: 40px;
+        height: 40px;
     }
 
     &__hr{
@@ -83,10 +95,14 @@
         background: linear-gradient(
             90deg,
             $color-dark 0%,
-            $color-red 20%,
-            $color-red 80%,
+            $color-dark 30%,
+            $color-red 40%,
+            $color-red 60%,
+            $color-dark 70%,
             $color-dark 100%
     );
+        margin: 14px 0;
+        border: none;
     }
 
 }
