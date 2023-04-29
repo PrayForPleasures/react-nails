@@ -18,7 +18,6 @@ export const Header = () => {
                             <a className="header__nav-link" href="#">Запись</a>
                         </nav>
                     </div>
-
                 </div>
             </div>
     </>

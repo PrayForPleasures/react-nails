@@ -5,7 +5,6 @@ import { Footer } from './components/footer/Footer';
 import { Myline } from './components/global/Myline';
 import { SectionOne } from './components/section-one/SectionOne';
 import { SectionTwo } from './components/section-two/SectionTwo';
-import { SectionThree } from './components/section-three/SectionThree';
 import  Slider  from './components/swiper/Slider';
 
 import '../src/scss/main.css'
@@ -22,8 +21,10 @@ root.render(
       <Slider></Slider>
       <Myline></Myline>
       <SectionOne></SectionOne>
+      <Myline></Myline>
       <SectionTwo></SectionTwo>
-      <SectionThree></SectionThree>
+      <Myline></Myline>
       <Footer></Footer>
+      <Myline></Myline>
   </React.StrictMode>
 );

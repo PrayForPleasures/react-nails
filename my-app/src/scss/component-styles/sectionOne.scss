@@ -3,6 +3,17 @@
     background-color: $color-dark;
     position: relative;
 
+    &__phone_flex{
+        padding-top: 16px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__phone-number{
+        font-family: $main-font;
+        transition: 0.3s linear;
+    }
+
     &__flex-box{
         padding: 40px 0;
         display: flex;
@@ -30,7 +41,8 @@
         width: 20%;
         position: absolute;
         right: 0;
-        top: 470px;
+        top: 870px;
+        z-index: 0;
     }
 
     &__main-content{
@@ -51,6 +63,7 @@
         z-index: 4;
         text-indent: 20px;
         text-align: center;
+        font-family: $main-font;
     }
 
     &__main-image{
@@ -102,8 +115,60 @@
             $color-dark 70%,
             $color-dark 100%
     );
-        margin: 16px 0;
+        margin: 32px 0;
         border: none;
     }
 
+    &__types{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    &__types-topic{
+        font-family: $main-font;
+    }
+
+    &__types-big-box{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    &__types-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    &__types-mini-box{
+        width: 28%;
+        z-index: 4;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__types-mini-box-topic{
+        font-family: $main-font;
+        margin-top: 32px;
+        text-align: center;
+    }
+
+    &__types-mini-box-description{
+        font-family: $main-font;
+        margin-top: 16px;
+        text-align: center;
+        
+    }
+
+    &__types-image{
+        margin-top: 16px;
+        width: 70%;
+        height: 200px;
+        border: 1px solid $color-white;
+        border-radius: 5px;
+    }
 }
