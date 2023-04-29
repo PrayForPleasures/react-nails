@@ -11,7 +11,7 @@ const ProductImagesSlider = (props:any) =>{
             modules={[Thumbs, Autoplay]}
             className='slider__items'
             autoplay={{
-                delay: 2500             
+                delay: 3000             
             }}
         >
             {props.images.map((item:any,index:number)=>(

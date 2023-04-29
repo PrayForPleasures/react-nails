@@ -527,14 +527,13 @@ body {
 
 .slider {
   background-color: #222222;
-  padding: 8px 0;
-  transition: linear; }
+  padding: 8px 0; }
 
 .slider__items {
   cursor: pointer;
-  width: 100%; }
+  width: 100%;
+  transition: linear; }
   .slider__items_wrapper {
-    width: 100%;
     padding-top: 65%;
     overflow: hidden;
     position: relative;

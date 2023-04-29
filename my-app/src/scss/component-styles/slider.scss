@@ -1,21 +1,21 @@
 .slider{
     background-color: $color-dark;
     padding: 8px 0;
-    transition: linear;
+    
 }
 
 .slider__items{
     cursor: pointer;
     width: 100%;
+    transition: linear;
 
     &_wrapper {
-        width: 100%;
         padding-top: 65%;
         overflow: hidden;
         position: relative;
         border: 1px solid $color-white;
         border-radius: 5px;
-    
+        
         img {
             position: absolute;
             top:0;
