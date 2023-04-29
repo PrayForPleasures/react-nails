@@ -6,8 +6,7 @@ import { Myline } from './components/global/Myline';
 import { SectionOne } from './components/section-one/SectionOne';
 import { SectionTwo } from './components/section-two/SectionTwo';
 import { SectionThree } from './components/section-three/SectionThree';
-
-
+import  Slider  from './components/swiper/Slider';
 
 import '../src/scss/main.css'
 
@@ -19,6 +18,8 @@ root.render(
   <React.StrictMode>
       <Myline></Myline>
       <Header></Header>
+      <Myline></Myline>
+      <Slider></Slider>
       <Myline></Myline>
       <SectionOne></SectionOne>
       <SectionTwo></SectionTwo>
