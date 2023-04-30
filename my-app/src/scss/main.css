@@ -464,7 +464,12 @@ body {
     justify-content: space-around; }
   .section-one__phone-number {
     font-family: "Josefin Sans", sans-serif;
-    transition: 0.3s linear; }
+    transition: 0.3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .section-one__phone-logo {
+    width: 20%; }
   .section-one__flex-box {
     padding: 40px 0;
     display: flex;
@@ -597,6 +602,34 @@ body {
     color: whitesmoke;
     font-family: "Josefin Sans", sans-serif;
     text-align: center; }
+
+.footer {
+  background-color: #222222;
+  padding: 20px 0; }
+  .footer__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  .footer__left-box {
+    width: 30%;
+    justify-content: center; }
+  .footer__copyright {
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke; }
+  .footer__copyright:first-of-type {
+    margin-bottom: 8px; }
+  .footer__middle-box {
+    width: 40%; }
+  .footer__right-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+  .footer__pay-image {
+    width: 100%;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: whitesmoke; }
 
 .slider {
   background-color: #222222;

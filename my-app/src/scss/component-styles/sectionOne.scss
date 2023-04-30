@@ -12,6 +12,13 @@
     &__phone-number{
         font-family: $main-font;
         transition: 0.3s linear;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__phone-logo{
+        width: 20%;
     }
 
     &__flex-box{

@@ -11,6 +11,7 @@ import braz from '../../images/braz.jpg';
 import jap from '../../images/jap.jpg';
 import spa from '../../images/spa.jpg';
 import app from '../../images/app.jpg';
+import mts from '../../images/mts.png';
 
 export const SectionOne = () => {
     return <>
@@ -18,8 +19,8 @@ export const SectionOne = () => {
             <img className="section-one__back-image_left" src={backImage1} alt="image" />
             <div className="container">
                 <div className="section-one__phone_flex">
-                    <a className="section-one__phone-number" href="tel:+375445551001">+375 (29) 555-10-01</a>
-                    <a className="section-one__phone-number" href="tel:+375445551001">+375 (44) 555-10-01</a>
+                    <a className="section-one__phone-number" href="tel:+375445551001"><img className="section-one__phone-logo" src={mts} alt="logo" /> +375 (29) 555-10-01</a>
+                    <a className="section-one__phone-number" href="tel:+375445551001"><img className="section-one__phone-logo" src={mts} alt="logo" /> +375 (44) 555-10-01</a>
                 </div>
                 <div className="section-one__flex-box">
                     <div className="section-one__left-box">
