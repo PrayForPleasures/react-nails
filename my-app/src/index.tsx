@@ -5,6 +5,7 @@ import { Footer } from './components/footer/Footer';
 import { Myline } from './components/global/Myline';
 import { SectionOne } from './components/section-one/SectionOne';
 import { SectionTwo } from './components/section-two/SectionTwo';
+import {Feedback} from './components/feedback/Feedback';
 import  Slider  from './components/swiper/Slider';
 
 import '../src/scss/main.css'
@@ -16,6 +17,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
       <Myline></Myline>
+      <Feedback></Feedback>
+
       <Header></Header>
       <Myline></Myline>
       <Slider></Slider>

@@ -1,1 +1,3 @@
-export const feedback = [{}]
+export interface ForForm{
+    txt: string
+}
