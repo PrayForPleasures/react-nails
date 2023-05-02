@@ -1,18 +1,29 @@
 import React from "react";
 import { useState } from "react";
-import { ForForm } from '../../data/feedback'
+import { useForm } from 'react-hook-form';
 
 export const Feedback = (props:any) => {
-    const [txt, setTxt] = ('')
+    const {
+        register,
+        formState,
+        handleSubmit
+
+    } = useForm();
+
+    const onSubmit =(data:any)=>{
+        alert(JSON.stringify(data))
+    }
 
     return <div className="feedback">
-        <form className="feedback__form" action="">
-            <h2 className="feedback__form-topic">Запись <span>x-Nails</span></h2>
-            <label>
-                <input type="text" name="имя"/>
+        <h2 className="feedback__topic">Запись <span>x-Nails</span></h2>
+        <form className="feedback__form" onSubmit={handleSubmit(onSubmit)}>
+            <label>Ваше имя:
+                <input {...register('name', {
+                    required:true
+                })} />
             </label>
             <textarea name="Дополнительная информация" id="text" ></textarea>
-            <button>Подтвердить</button>
+            <input type="submit" />
         </form>
     </div>
 }
