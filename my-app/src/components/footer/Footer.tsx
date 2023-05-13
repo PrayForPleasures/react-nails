@@ -7,7 +7,8 @@ export const Footer = () =>{
             <div className="footer__box">
                 <div className="footer__left-box">
                     <p className='footer__copyright'>Республика Беларусь, Советская 99 к.2</p>
-                    <p className='footer__copyright'>&copy; All Right Reserved Dmitriy Yarchuck Corp.</p>
+                    <p className='footer__copyright'>&copy; All Right Reserved</p>
+                    <p className='footer__copyright'>Dmitriy Yarchuck Corp.</p>
                 </div>
                 <div className="footer__middle-box">
                     <img className='footer__pay-image' src={pay} alt="logos" />

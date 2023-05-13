@@ -17,7 +17,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
       <Myline></Myline>
-      <Feedback></Feedback>
+      {/* <Feedback></Feedback> */}
 
       <Header></Header>
       <Myline></Myline>
